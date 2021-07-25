@@ -2,6 +2,7 @@
 
 .navbar {
     background-color: black !important;
+    
   }
   
 
@@ -24,6 +25,7 @@
   }
   
   .jumbotron {
+    background-color: rgb(160, 157, 157);
     background-image: asset-url('jumbo-copy.jpg');
     background-position: center center;
     background-repeat: no-repeat;
@@ -44,3 +46,7 @@
   #sticky-footer {
     flex-shrink: none;
   } 
+  .shadow {
+    
+    box-shadow: 0.8em 0.8em 5px rgba(0, 0, 0, 0.5);
+    padding: 15px;}
